@@ -33,6 +33,10 @@ Search for your bot in telegram's contact search bar. Once you find it, send it 
 
 The /start message executes the start function of the aivpn-telegram-bot.py script.
 
-The actual version supports 2 commands, `/getopenvpn` and `/getwireguard`. Each command executes the `getopenvpn` or `getwireguard` function. If other command is sent, the script will execute the `unknown` funtion and will print the instructions. Other text that is not a command will be ignored by the bot. To create new commands, simply add new functions, and the add them to the `dispatcher` object as a `CommandHandler` object.
+The actual version supports 2 commands, `/getopenvpn` and `/getwireguard`. Each command executes the `getopenvpn` or `getwireguard` function.
+
+If other command is sent, the script will execute the `unknown` funtion and will print the instructions.
+
+Other text that is not a command will be ignored by the bot. To create new commands, simply add new functions, and the add them to the `dispatcher` object as a `CommandHandler` object.
 
 The `updater.start\_polling()` function will poll new commands from users. The `updater.start_polling()` call will wait till CTRL-C is pressed or some other event and then finish the bot gracefully.
