@@ -1,4 +1,4 @@
-#telegram bot skel for aivpn
+# telegram bot skel for vpn certificates distribution
 
 Very simple bot to allow certificates distribution over telegram
 
