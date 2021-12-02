@@ -18,7 +18,7 @@ pip install python-telegram-bot --upgrade
 
 3. Clone this repo
 ```
-git clone https://github.com/jwackito/telegram-bot-aivpn.git
+git clone https://github.com/jwackito/telegram-bot-vpn.git
 ```
 
 4. Replace the variable `token = 'TOKEN-PROVIDED-BY-BOTFATHER'` with the providen token.
