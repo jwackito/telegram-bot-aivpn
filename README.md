@@ -1,4 +1,4 @@
-# AIVPN telegram bot
+#telegram bot skel for aivpn
 
 Very simple bot to allow certificates distribution over telegram
 
